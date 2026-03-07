@@ -68,3 +68,15 @@ def sitevalid(txt):
         else:
             print(f'\033[32m Site {site_name} accessible! Request approved.\033[m')
             break
+
+
+def readstr(txt):
+    while True:
+        try:
+            n = str(input(txt).strip())
+        except ValueError:
+            print('\033[31m Error, please type a valid string!\033[m')
+        except KeyboardInterrupt:
+            print('\033[31m Error, user chose not to enter data.\033[m')
+        else:
+            return n
