@@ -1,0 +1,14 @@
+# Python Modules - Curso em Vídeo
+
+This repository contains custom Python modules and packages created during the "Curso em Vídeo" Python course (World 3).
+
+##  Skills & Topics Covered
+* Modular Architecture and Package Creation (`__init__.py`)
+* Separation of Concerns (Business Logic vs. UI)
+* String Formatting and Terminal Tables
+* Robust Data Validation and Error Handling (`try/except`)
+
+##  Project Structure
+* `/useful/numbers`: Math and currency operations.
+* `/useful/string`: Terminal UI and text formatting.
+* `/useful/data`: Safe user input validation.
