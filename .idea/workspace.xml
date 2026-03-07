@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eee2d7-86f4-4e50-9508-7663a83dc39b" name="Changes" comment="feat: implement summary function on currency module">
-      <change afterPath="$PROJECT_DIR$/World 3/Ex112.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/useful/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/useful/data/validation.py" afterDir="false" />
+    <list default="true" id="b0eee2d7-86f4-4e50-9508-7663a83dc39b" name="Changes" comment="feat: implement robust data validation for currency input (ex 112)&#10;&#10;- Create `useful.data.validation` module to decouple input handling from business logic.&#10;- Implement `readusd()` and `readbrl()` using try-except blocks to handle ValueErrors.&#10;- Add loop-based validation to ensure the program only proceeds with valid numeric data.&#10;- Integrate `locale` library for Brazilian currency formatting support.">
+      <change afterPath="$PROJECT_DIR$/World 3/Ex113.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/World 3/Ex114.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/useful/data/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/useful/data/validation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,10 @@
     "Python.Ex108.executor": "Run",
     "Python.Ex110.executor": "Run",
     "Python.Ex112.executor": "Run",
+    "Python.Ex113.executor": "Run",
+    "Python.Ex114.executor": "Run",
     "Python.currency.executor": "Run",
+    "Python.validation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -110,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772821160200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: implement robust data validation for currency input (ex 112)&#10;&#10;- Create `useful.data.validation` module to decouple input handling from business logic.&#10;- Implement `readusd()` and `readbrl()` using try-except blocks to handle ValueErrors.&#10;- Add loop-based validation to ensure the program only proceeds with valid numeric data.&#10;- Integrate `locale` library for Brazilian currency formatting support.">
+      <option name="closed" value="true" />
+      <created>1772824813912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772824813913</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +129,7 @@
     <MESSAGE value="creation of module repository and first package." />
     <MESSAGE value="feat: implement currency module with optional formatting (ex 107-108)&#10;- Create `currency.py` module with `half`, `double`, `increase`, and `decrease` functions.&#10;- Add `money()` function to handle US$ currency string formatting.&#10;- Introduce `show=False` optional parameter to all math functions, allowing them to return either raw floats for calculations or formatted strings for display." />
     <MESSAGE value="feat: implement summary function on currency module" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implement summary function on currency module" />
+    <MESSAGE value="feat: implement robust data validation for currency input (ex 112)&#10;&#10;- Create `useful.data.validation` module to decouple input handling from business logic.&#10;- Implement `readusd()` and `readbrl()` using try-except blocks to handle ValueErrors.&#10;- Add loop-based validation to ensure the program only proceeds with valid numeric data.&#10;- Integrate `locale` library for Brazilian currency formatting support." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement robust data validation for currency input (ex 112)&#10;&#10;- Create `useful.data.validation` module to decouple input handling from business logic.&#10;- Implement `readusd()` and `readbrl()` using try-except blocks to handle ValueErrors.&#10;- Add loop-based validation to ensure the program only proceeds with valid numeric data.&#10;- Integrate `locale` library for Brazilian currency formatting support." />
   </component>
 </project>
