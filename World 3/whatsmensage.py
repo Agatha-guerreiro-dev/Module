@@ -1,5 +1,5 @@
 import pywhatkit
 
-contato =
-mensagem =
-pywhatkit.sendwhatmsg(contato_psi, mensagem, 7,32)
+contact = "+55"
+msg = ""
+pywhatkit.sendwhatmsg(contact, msg, 7,32)
